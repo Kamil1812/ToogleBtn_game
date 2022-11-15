@@ -62,5 +62,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<ToggleButton>(R.id.tB9).setOnClickListener{
             output.text = output.text.toString() + "9"
         }
+
     }
 }
